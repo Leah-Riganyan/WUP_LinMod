@@ -124,9 +124,13 @@ The scatter plot for SIMS v GRIP shows us the best line of fit, showing us the m
 ## Model 3 SIM~ARM+GRIP
 
 ### Numerical results (cor)
+   
+```{r}
+cor(SIMS~ARM+GRIP,data=data)
+```
+   
+The numerical results here show us that there's a 0.7326545 correlation between SIMS vs ARM+GRIP. This tells us that the most accurate model would be this one, rather than individually looking at ARM/GRIP separately. 
 
-`
-  
 ### Inferential  (Build 2-dimentional model.3)
 
 #### predict model.3 at target point
