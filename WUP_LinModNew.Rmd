@@ -46,6 +46,10 @@ The plot shows the simulated expectations of arm strength in workers. Most of th
    
 
 ### Numerical results
+```{r}
+cor(ARM~SIMS,data=data)
+```
+
 
 
 ### Inferential  (Build model.1)
