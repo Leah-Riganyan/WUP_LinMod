@@ -103,7 +103,8 @@ model.2 <- lm(SIMS~GRIP,data=data)
 summary.lm(model.2)
 ```
    
-
+The inferential result for model 2 shows us the equation as SIMS = 0.045463x GRIP -4.809675 for the line of best fit. The positive coefficient makes the slope positive, so we'll see the line from the bottom left travel to the upper right.
+   
 #### predict model.2 at target point
 
 #### now add the model fit to our plot for model.2
