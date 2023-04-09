@@ -152,7 +152,10 @@ The prediction model for 3 shows us 0.1496476 as the target point for SIMS vs AR
 ```{r}
 anova(model.1,model.3)
 ```
-
+   
+The table above shows us that model.3 is more accurate than model.1. If there were no differences between those two models, there would be a 0.000004994% chance of this outcome. We have a 145 degree of freedom for model.1, and 144 degree of freedom for model.3. The residual sum of square values shows us 217.88 errors for model.1 and 188.43 errors for model.3. Meaning, the plots for ARM+GRIP were more accurate by 29.45 points.
+   
+  
 ### Model.2 vs Model.3
 ```{r}
 anova(model.2,model.3)
