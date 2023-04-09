@@ -86,9 +86,9 @@ The data above is showing us the line of best fit from the data collected from S
 basicGRIP <- ggplot(data,aes(y=SIMS,x=GRIP))
 basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_text(hjust = 0.5, size = 20))
 ```
-
-
-
+   
+The graph shows us the expectation of grip strength in workers. The grip strength expected for most of the population is 80 to 125.
+  
 ### Numerical results 
 ```{r}
 cor(SIMS~GRIP,data=data)
