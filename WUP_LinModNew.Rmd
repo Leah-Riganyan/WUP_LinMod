@@ -61,7 +61,14 @@ summary.lm(model.1)
 The equation for the line in this scenario is SIMS=0.054563xARM-4.095160. Because of the positive coefficient, the line also moves in a positive direction, lower left to upper right.
 
 #### Predict at target point
+   
+```{r}
+tgtpoint=data.frame(ARM=88, GRIP=94)
 
+predict(model.1,tgtpoint, interval= c("prediction"))
+```
+   
+This table shows the predicted target plot is 0.7063836, bu at 95% we are going to have a value between -1.726209 3.138977.
 
 #### scatterplot with model fit
   
